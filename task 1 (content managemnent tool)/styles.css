@@ -1,0 +1,54 @@
+
+  body {
+    background-color:white;
+    color: #0a0c01  ;
+    font-family:Georgia, Times, serif, Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-image: url('image.jpg');*/
+    background-size: contain;
+    background-color: gray;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #beec15;
+  }
+  
+  input[type="text"],
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color:rgba(103, 103, 230, 0.495);
+    color: #384606;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  #blog-preview {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color:whitesmoke;
+  }
+  
